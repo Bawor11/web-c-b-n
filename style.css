@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.chat a {
+    margin: 10px;
+    display: inline-block;
+}
+
+#slide {
+    transition: 0.5s;
+}
