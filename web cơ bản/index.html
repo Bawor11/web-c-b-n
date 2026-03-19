@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>𝕲𝖔𝖉𝖙𝖍𝖎𝖈 𝕾𝖍𝖔𝖕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>𝕲𝖔𝖉𝖙𝖍𝖎𝖈 𝕾𝖍𝖔𝖕</h1>
+<p>sᴛʏʟᴇ ᴅᴀʀᴋɴᴇss</p>
+
+<!-- SLIDER -->
+<div class="slider">
+
+    <button onclick="prev()">⬅</button>
+    <img id="slide" src="img/T shirt1.png">
+    <button onclick="next()">➡</button>
+
+</div>
+
+<!-- SẢN PHẨM -->
+ <h2>T-shirt</h2>
+<div class="products">
+
+    <div class="item">
+        <img src="img/T shirt1.png">
+        <h3>Áo thun Dark Moon</h3>
+        <p>150.000VND</p>
+        <button onclick="chonSanPham('Áo thun Dark Moon')">Mua ngay</button>
+    </div>
+
+    <div class="item">
+        <img src="img/T shirt2.png">
+        <h3>Áo thun Death Black</h3>
+        <p>200.000VND</p>
+        <button onclick="chonSanPham('Áo thun Death Black')">Mua ngay</button>
+    </div>
+
+    <div class="item">
+        <img src="img/T shirt3.png">
+        <h3>Áo thun Skullcap</h3>
+        <p>200.000VND</p>
+        <button onclick="chonSanPham('Áo thun Skullcap')">Mua ngay</button>
+    </div>
+</div>
+
+    <h2>Pants</h2>
+    <div class="products">
+    <div class="item">
+        <img src="img/pant1.png">
+        <h3>Quần Camo black</h3>
+        <p>450.000đ</p>
+        <button onclick="chonSanPham('Quần Camo black')">Mua ngay</button>
+    </div>
+
+    <div class="item">
+        <img src="img/pant2.png">
+        <h3>Quần Baggy oversize</h3>
+        <p>300.000đ</p>
+        <button onclick="chonSanPham('Quần Baggy oversize')">Mua ngay</button>
+    </div>
+
+    <div class="item">
+        <img src="img/pant3.png">
+        <h3>Quần Jean</h3>
+        <p>350.000đ</p>
+        <button onclick="chonSanPham('Quần ')">Mua ngay</button>
+    </div>
+</div>
+
+<!-- NÚT CHAT -->
+<div class="chat">
+    <a href="https://www.instagram.com/steven_baor/" target="_blank">Chat instagram</a>
+    <a href="https://www.facebook.com/StevenBaor" target="_blank">Chat Facebook</a>
+</div>
+
+<!-- FORM -->
+<h2>Đặt hàng</h2>
+
+<form onsubmit="datHang(event)">
+    <input type="text" id="ten" placeholder="Tên của bạn/your name" required>
+    <input type="text" id="sdt" placeholder="SĐT/phone number" required>
+    <input type="text" id="địa chỉ" placeholder="Địa chỉ nhận hàng" required>
+    <input type="text" id="sanpham" placeholder="Sản phẩm/product" required>
+    <button type="submit">Gửi đơn</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
